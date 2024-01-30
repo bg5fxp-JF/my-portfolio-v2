@@ -7,13 +7,13 @@ export default function Navbar() {
 	const path = usePathname();
 
 	return (
-		<div className="sticky  top-4 flex flex-col items-center p-5 lg:p-7 rounded-md shadow-lg bg-foreground gap-7 ">
+		<div className="sticky  top-7 flex flex-col items-center p-5 lg:p-7 rounded-md shadow-lg bg-foreground gap-7 ">
 			{navItems.map(({ title, link }, index) => (
 				<Link
 					href={link}
 					key={index}
 					className={`flex items-center justify-center w-full p-2 rounded-md ${
-						path == link ? "bg-copy text-primary-content" : " text-copy"
+						path == link ? "bg-primary text-copy" : " text-copy"
 					}`}
 				>
 					{title}

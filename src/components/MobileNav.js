@@ -13,7 +13,7 @@ export default function MobileNav() {
 					href={link}
 					key={index}
 					className={`flex items-center justify-center w-full p-1 rounded-md text-xsm sm:text-sm ${
-						path == link ? "bg-copy text-primary-content" : " text-copy"
+						path == link ? "bg-primary text-copy" : " text-copy"
 					}`}
 				>
 					{title}
