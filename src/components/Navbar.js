@@ -13,8 +13,10 @@ export default function Navbar() {
 					href={link}
 					key={index}
 					className={`flex items-center justify-center w-full p-2 rounded-md ${
-						path == link ? "bg-primary text-copy" : " text-copy"
-					}`}
+						path == link
+							? "bg-primary text-copy"
+							: " text-copy hover:text-primary active:scale-110"
+					} transition-all`}
 				>
 					{title}
 				</Link>
