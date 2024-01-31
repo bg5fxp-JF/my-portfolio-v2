@@ -40,10 +40,10 @@ export const navItems = [
 		title: "Projects",
 		link: "/projects",
 	},
-	{
-		title: "Blog",
-		link: "/blog",
-	},
+	// {
+	// 	title: "Blog",
+	// 	link: "/blog",
+	// },
 	{
 		title: "Contact",
 		link: "/contact",
@@ -115,4 +115,144 @@ export const skills = [
 	{ skill: "Java", level: "85" },
 	{ skill: "Python", level: "80" },
 	{ skill: "Git & Github", level: "100" },
+];
+
+export const projectData = [
+	{
+		title: "Archie Sharpe",
+		type: "Front-end project",
+		description:
+			"This was a Client Project. My job was to revamp Archie's website in order to propose a pitch for him.",
+		src: "/images/projects/1.png",
+		vid: "/videos/Archie.mp4",
+		link: "https://sharpshooter-tau.vercel.app",
+		color: "#f653b4",
+		textColor: "#FFF",
+		tech: [
+			{
+				title: "React JS",
+				link: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+			},
+			{
+				title: "Bootstrap CSS",
+				link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg",
+			},
+		],
+	},
+	{
+		title: "CrepCrypt",
+		type: "Full-stack project",
+		description:
+			"This was a Team Hackathon Project. It's goal was to create a platform that decentralises and secures the selling/re-selling of shoes.",
+		src: "/images/projects/3.png",
+		link: "https://crepcrypt.vercel.app",
+		color: "#72b01d",
+		textColor: "#FFF",
+		tech: [
+			{
+				title: "Next JS",
+				link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+			},
+			{
+				title: "Tailwind CSS",
+				link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+			},
+			{
+				title: "Solidity",
+				link: "https://www.vectorlogo.zone/logos/ethereum/ethereum-icon.svg",
+			},
+		],
+	},
+	{
+		title: "GeNFT",
+		type: "Full-stack project",
+		description:
+			"This was a personal project. It was created for users to utilise the creatity of AI to generate NFTs and then stake them for rewards.",
+		src: "/images/projects/4.png",
+		link: "https://ge-nft.vercel.app",
+		color: "#FF6600",
+		textColor: "#FFF",
+		tech: [
+			{
+				title: "Next JS",
+				link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+			},
+			{
+				title: "Tailwind CSS",
+				link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+			},
+			{
+				title: "Solidity",
+				link: "https://www.vectorlogo.zone/logos/ethereum/ethereum-icon.svg",
+			},
+			{
+				title: "Hardhat",
+				link: "/images/Hardhat.svg",
+			},
+			{
+				title: "Firebase",
+				link: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+			},
+		],
+	},
+	{
+		title: "Clowt Friends",
+		type: "Front-end project",
+		description:
+			"This was a Client Project. My job was to create a landing page (based on their designs) in order for them to start their funding process.",
+		src: "/images/projects/2.png",
+		link: "https://clowt-friends.vercel.app",
+		vid: "/videos/Clowt.mp4",
+		color: "#6f8ceb",
+		tech: [
+			{
+				title: "React JS",
+				link: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+			},
+			{
+				title: "Bootstrap CSS",
+				link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg",
+			},
+		],
+	},
+	{
+		title: "Floodfix",
+		type: "Front-end project",
+		description:
+			"This was a Client Project. My job was to create a landing page and UI (based on their designs) for a MVP of theirs.",
+		src: "/images/projects/5.png",
+		link: "https://flood-fix.vercel.app",
+		color: "#6558BA",
+		textColor: "#FFF",
+		tech: [
+			{
+				title: "Next JS",
+				link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+			},
+			{
+				title: "Tailwind CSS",
+				link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+			},
+		],
+	},
+	{
+		title: "Magnate Core",
+		type: "Front-end project",
+		description:
+			"This was a Client Project. My job was to create a landing page (based on their designs) and contact form to retain clients for their agency.",
+		src: "/images/projects/6.png",
+		link: "https://magnatecore.com",
+		color: "#000",
+		textColor: "#FFF",
+		tech: [
+			{
+				title: "Next JS",
+				link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+			},
+			{
+				title: "Tailwind CSS",
+				link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+			},
+		],
+	},
 ];
