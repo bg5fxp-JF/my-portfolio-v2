@@ -8,7 +8,8 @@ import ScrollBack from "@/components/ScrollBack";
 
 export const metadata = {
 	title: "JF | Portfolio",
-	description: "Full-Stack Web3 Developer",
+	description:
+		"I'm a forward-thinking Full-Stack Web3 Developer, who thrives in the face of challenges and embodies an unwavering commitment to lifelong learning.",
 };
 
 export default function RootLayout({ children }) {
