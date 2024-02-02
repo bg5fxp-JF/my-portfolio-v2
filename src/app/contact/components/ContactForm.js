@@ -59,7 +59,7 @@ export default function ContactForm() {
 
 	return (
 		<form
-			className="flex w-full  mx-auto flex-col bg-primary-content p-5 rounded-md shadow-md gap-y-10 text-reg text-copy  "
+			className="flex w-full  mx-auto flex-col bg-background p-5 rounded-md shadow-md gap-y-10 text-reg text-copy  "
 			onSubmit={handleSubmit}
 		>
 			<input

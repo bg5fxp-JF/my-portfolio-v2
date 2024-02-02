@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function PorjectModal({ project, isOpen, setIsOpen }) {
-	const { title, description, src, link, tech } = project;
+	const { title, type, description, src, link, tech } = project;
 	return (
 		<AnimatePresence>
 			{isOpen && (
@@ -43,10 +43,28 @@ export default function PorjectModal({ project, isOpen, setIsOpen }) {
 							/>
 							<div className="flex flex-col justify-center gap-5">
 								<div>
-									<p className=" text-primary text-sm ">Full-stack Project</p>
+									<p className=" text-primary text-sm ">{type}</p>
 									<h3 className="text-3xl font-bold ">{title}</h3>
 								</div>
 								<p className=" text-copy-light ">{description}</p>
+
+								<div className="flex flex-wrap gap-3  justify-start">
+									{tech.map((language, index) => {
+										return (
+											<ul
+												key={index}
+												title={language.title}
+												className="text-black px-2 py-1 xs:px-4 xs:py-2 bg-white rounded-full"
+											>
+												<img
+													className="h-[15px]"
+													src={language.link}
+													alt={language.title}
+												/>
+											</ul>
+										);
+									})}
+								</div>
 
 								<Link
 									href={link}
