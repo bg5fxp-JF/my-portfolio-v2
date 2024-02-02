@@ -261,7 +261,7 @@ export const projectData = [
 		description:
 			"This was my old portfolio site. Although I liked it, I decided it was time for a change and a site capable of showcasing my newest acheivements.",
 		src: "/images/projects/7.png",
-		link: "https://jf-portfolio.vercel.app",
+		link: "https://jf-portfolio-v1.vercel.app",
 		color: "#000",
 		textColor: "#FFF",
 		tech: [
