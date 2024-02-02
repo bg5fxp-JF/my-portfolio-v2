@@ -14,25 +14,25 @@ export default function ContactForm() {
 
 	async function handleSubmit(e) {
 		e.preventDefault();
-		// setIsSending(true);
+		setIsSending(true);
 
-		// const res = await fetch("/api/send", {
-		// 	method: "POST",
-		// 	body: JSON.stringify(formData),
-		// });
-		// const { statusCode } = await res.json();
-
-		// setIsSending(false);
-		// if (statusCode != null) {
-		// 	setIsError(true);
-		// } else {
-		// }
-		setFormData({
-			name: "",
-			email: "",
-			message: "",
+		const res = await fetch("/api/send", {
+			method: "POST",
+			body: JSON.stringify(formData),
 		});
-		setIsSubmitted(true);
+		const { statusCode } = await res.json();
+
+		setIsSending(false);
+		if (statusCode != null) {
+			setIsError(true);
+		} else {
+			setFormData({
+				name: "",
+				email: "",
+				message: "",
+			});
+			setIsSubmitted(true);
+		}
 	}
 
 	function handleChange(e) {
@@ -42,20 +42,20 @@ export default function ContactForm() {
 		});
 	}
 
-	// useEffect(() => {
-	// 	(async () => {
-	// 		if (isSubmitted) {
-	// 			setTimeout(() => {
-	// 				setIsSubmitted(false);
-	// 			}, 2000);
-	// 		}
-	// 		if (isError) {
-	// 			setTimeout(() => {
-	// 				setIsError(false);
-	// 			}, 5000);
-	// 		}
-	// 	})();
-	// }, [isSubmitted, isError]);
+	useEffect(() => {
+		(async () => {
+			if (isSubmitted) {
+				setTimeout(() => {
+					setIsSubmitted(false);
+				}, 2000);
+			}
+			if (isError) {
+				setTimeout(() => {
+					setIsError(false);
+				}, 5000);
+			}
+		})();
+	}, [isSubmitted, isError]);
 
 	return (
 		<form
@@ -64,7 +64,7 @@ export default function ContactForm() {
 		>
 			<input
 				type="text"
-				className="peer block w-full appearance-none bg-foreground p-2 rounded-md  focus:outline-none focus:bg-transparent focus:ring-0"
+				className="peer block w-full appearance-none bg-foreground p-2 rounded-md  focus:outline-none  focus:ring-0"
 				placeholder="Name"
 				name="name"
 				value={formData.name}
@@ -74,7 +74,7 @@ export default function ContactForm() {
 
 			<input
 				type="email"
-				className="peer block w-full appearance-none bg-foreground p-2 rounded-md  focus:outline-none focus:bg-transparent focus:ring-0"
+				className="peer block w-full appearance-none bg-foreground p-2 rounded-md  focus:outline-none  focus:ring-0"
 				placeholder="Email"
 				name="email"
 				value={formData.email}
@@ -83,7 +83,7 @@ export default function ContactForm() {
 			/>
 
 			<textarea
-				className="peer block w-full appearance-none bg-foreground p-2 rounded-md  focus:outline-none focus:bg-transparent focus:ring-0"
+				className="peer block w-full appearance-none bg-foreground p-2 rounded-md  focus:outline-none focus:ring-0"
 				placeholder="Message"
 				name="message"
 				rows={5}
@@ -93,13 +93,7 @@ export default function ContactForm() {
 			/>
 
 			{isSending ? (
-				<button
-					type="submit"
-					className="w-full md:w-[40%] mx-auto text-reg border-2 rounded-md p-2 border-white bg-white transition-all  text-bg1"
-					disabled={true}
-				>
-					<p className=" animate-pulse">...</p>
-				</button>
+				<p className=" text-center animate-pulse text-copy">Sending...</p>
 			) : (
 				<button
 					type="submit"
@@ -109,7 +103,7 @@ export default function ContactForm() {
 				</button>
 			)}
 			{isError && (
-				<p className="text-center text-sm">
+				<p className="text-center text-sm text-copy">
 					There has been an error trying to send your message. Please try again
 					later.
 				</p>
