@@ -68,13 +68,13 @@ export const education = [
 		school: "Brunel University London",
 		qualification: "Bsc (Hons) Computer Science (AI) – 1st Class",
 		date: "(2020 - 2023)",
-		desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, deleniti debitis a porro neque atque fugiat nemo provident hic! Ratione deserunt tempora fugit praesentium doloribus consequatur. Nisi non distinctio optio.",
+		desc: "Brunel is where my dev skills really started to tak shape. Having studying modules such as; Cybersecurity, Software Development and Management, Algorithms, Networks, Logic and Computation - I can confidently say the foundations of a good practacing developer were learnt.",
 	},
 	{
 		school: "City and Islingtion College",
 		qualification: "Level 3 Software Developemnt Diploma - Dist* Dist* Dist*",
 		date: "(2018 - 2020)",
-		desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, deleniti debitis a porro neque atque fugiat nemo provident hic! Ratione deserunt tempora fugit praesentium doloribus consequatur. Nisi non distinctio optio.",
+		desc: "This is where you could say my dev journey began. Whilst at CANDI I excelled in my Course, acheiving a triple Distinction* (equivalent to A*A*A*) and also an A in Level 3 Core Maths.",
 	},
 ];
 
@@ -83,19 +83,19 @@ export const workExperience = [
 		role: "Front-end Developer",
 		company: "Freenlance",
 		date: "(2022 - Present)",
-		desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, deleniti debitis a porro neque atque fugiat nemo provident hic! Ratione deserunt tempora fugit praesentium doloribus consequatur. Nisi non distinctio optio.",
+		desc: "I have worked on several projects often collaborating with Blockchain Dvelopers. I've prioritised transparent communication with both clients and the Back-end team. Maintaining clarity with the Back-end team involved strong communication. This helped ensure git repositories and code were well structured, in order to facilitate smoother integrations.",
 	},
 	{
 		role: "Junior Software Developer",
 		company: "Otermans Institute",
-		date: "(Jun 2021 - Aug 2021)",
-		desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, deleniti debitis a porro neque atque fugiat nemo provident hic! Ratione deserunt tempora fugit praesentium doloribus consequatur. Nisi non distinctio optio.",
+		date: "(2021)",
+		desc: "Searched, collected, and cleaned large amounts of data for Machine Learning projects.  Collaborated on the development and troubleshooting of several chatbots, leveraging Python, and RASA. Contributed innovative solutions for prototype projects using forward-thinking approaches.",
 	},
 	{
 		role: "Software Developer (Intern)",
 		company: "ARN.",
 		date: "(2020 - 2021)",
-		desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, deleniti debitis a porro neque atque fugiat nemo provident hic! Ratione deserunt tempora fugit praesentium doloribus consequatur. Nisi non distinctio optio.",
+		desc: "Whilst working here I contributed to the development of ARN's first app. I demonstrated a collaborative and cooperative work ethic, actively participated in ideation meetings, offered creative solutions and strategies for company growth and developed games for the app using Unity.",
 	},
 ];
 
@@ -248,6 +248,30 @@ export const projectData = [
 			{
 				title: "Next JS",
 				link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+			},
+			{
+				title: "Tailwind CSS",
+				link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+			},
+		],
+	},
+	{
+		title: "My Portfolio (Old)",
+		type: "Front-end project",
+		description:
+			"This was my old portfolio site. Although I liked it, I decided it was time for a change and a site capable of showcasing my newest acheivements.",
+		src: "/images/projects/7.png",
+		link: "https://jf-portfolio.vercel.app",
+		color: "#000",
+		textColor: "#FFF",
+		tech: [
+			{
+				title: "Next JS",
+				link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+			},
+			{
+				title: "Typescript",
+				link: "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg",
 			},
 			{
 				title: "Tailwind CSS",
