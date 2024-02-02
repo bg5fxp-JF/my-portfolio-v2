@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import MobileNav from "@/components/MobileNav";
 import TopHero from "@/components/TopHero";
+import Preloader from "@/components/Preloader";
 
 export const metadata = {
 	title: "JF | Portfolio",
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<body className="bg-background">
+				<Preloader />
 				<TopHero />
 				<div className="relative flex flex-col gap-7 w-full max-w-[1440px] mx-auto mt-40 px-6 pb-28 sm:px-16">
 					<Hero />
