@@ -68,7 +68,7 @@ export const education = [
 		school: "Brunel University London",
 		qualification: "Bsc (Hons) Computer Science (AI) – 1st Class",
 		date: "(2020 - 2023)",
-		desc: "Brunel is where my dev skills really started to tak shape. Having studying modules such as; Cybersecurity, Software Development and Management, Algorithms, Networks, Logic and Computation - I can confidently say the foundations of a good practacing developer were learnt.",
+		desc: "Brunel is where my dev skills really started to take shape. Having studying modules such as; Algorithms, Cybersecurity, Software Development and Management, Computational Logic, and Networks - I can confidently say that the best practices for being a developer were learnt.",
 	},
 	{
 		school: "City and Islingtion College",
@@ -83,13 +83,13 @@ export const workExperience = [
 		role: "Front-end Developer",
 		company: "Freenlance",
 		date: "(2022 - Present)",
-		desc: "I have worked on several projects often collaborating with Blockchain Dvelopers. I've prioritised transparent communication with both clients and the Back-end team. Maintaining clarity with the Back-end team involved strong communication. This helped ensure git repositories and code were well structured, in order to facilitate smoother integrations.",
+		desc: "As a freelancer I have worked on several projects often collaborating with Blockchain Dvelopers. I have prioritised transparent communication with both clients and the Back-end team. Maintaining clarity with the Back-end team involved strong communication. This helped ensure git repositories and code were well structured, in order to facilitate smoother integrations.",
 	},
 	{
 		role: "Junior Software Developer",
 		company: "Otermans Institute",
 		date: "(2021)",
-		desc: "Searched, collected, and cleaned large amounts of data for Machine Learning projects.  Collaborated on the development and troubleshooting of several chatbots, leveraging Python, and RASA. Contributed innovative solutions for prototype projects using forward-thinking approaches.",
+		desc: "Working here I; searched, collected, and cleaned large amounts of data for Machine Learning projects. I also collaborated on the development and troubleshooting of several chatbots, leveraging Python, and RASA.",
 	},
 	{
 		role: "Software Developer (Intern)",
