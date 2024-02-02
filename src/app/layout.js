@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import MobileNav from "@/components/MobileNav";
 import TopHero from "@/components/TopHero";
 import Preloader from "@/components/Preloader";
+import ScrollBack from "@/components/ScrollBack";
 
 export const metadata = {
 	title: "JF | Portfolio",
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
 					</div>
 				</div>
 				<MobileNav />
+				<ScrollBack />
 				{/* <section className="relative flex w-full max-w-[1440px] mt-40 mx-auto px-6 pb-28 sm:px-16 ">
 					
 					{children}
