@@ -11,12 +11,13 @@ export default function Hero() {
 				<div className="relative flex flex-col items-center md:flex-row md:items-start py-7 md:px-7 md:py-0 gap-x-7 ">
 					<Image
 						src={img}
+						alt="Me"
 						width={1000}
 						height={1000}
 						className=" w-[200px] h-[200px] absolute md:relative object-cover rounded-md shadow-lg border-[4px] border-background -top-20"
 					/>
 					<div className="flex flex-col items-center text-center  mt-[120px] md:text-left md:items-start md:mt-0 gap-y-1">
-						<h3 className="text-2xl text-copy font-bold">{name}</h3>
+						<h5 className="text-2xl text-copy font-bold">{name}</h5>
 						<p className="text-reg text-primary">{title}</p>
 						<div className="flex gap-4 mt-5">
 							{links.map(({ link, Icon }, index) => (
