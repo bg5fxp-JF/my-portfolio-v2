@@ -2,6 +2,8 @@ import Link from "next/link";
 import Content from "./components/Content";
 import { client } from "@/app/lib/sanity";
 
+export const revalidate = 30;
+
 export async function generateMetadata({ params }) {
 	// read route params
 	const query = `
