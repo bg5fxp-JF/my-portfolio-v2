@@ -40,10 +40,10 @@ export const navItems = [
 		title: "Projects",
 		link: "/projects",
 	},
-	// {
-	// 	title: "Blog",
-	// 	link: "/blog",
-	// },
+	{
+		title: "Blog",
+		link: "/blog",
+	},
 	{
 		title: "Contact",
 		link: "/contact",

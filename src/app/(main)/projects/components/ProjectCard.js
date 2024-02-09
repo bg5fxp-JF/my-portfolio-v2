@@ -14,6 +14,7 @@ export default function ProjectCard({ project }) {
 			<div className="overflow-hidden rounded-md shadow-lg">
 				<Image
 					src={src}
+					priority
 					width={1000}
 					height={1000}
 					className="object-cover rounded-md  group-hover:scale-125 transition-all"

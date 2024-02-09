@@ -65,17 +65,18 @@ module.exports = {
 				"infinite-scroll": "infinite-scroll 25s linear infinite",
 				"infinite-scroll2": "infinite-scroll2 25s linear infinite",
 			},
+			webkit: {},
 			keyframes: {
 				"infinite-scroll": {
-					from: { transform: "translateX(0)" },
-					to: { transform: "translateX(-100%)" },
+					"0%": { transform: "translateX(0)" },
+					"100%": { transform: "translateX(-100%)" },
 				},
 				"infinite-scroll2": {
-					from: { transform: "translateX(-100%)" },
-					to: { transform: "translateX(0)" },
+					"0%": { transform: "translateX(-100%)" },
+					"100%": { transform: "translateX(0)" },
 				},
 			},
 		},
 	},
-	plugins: [],
+	plugins: [require("@tailwindcss/typography")],
 };
