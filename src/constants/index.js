@@ -279,4 +279,24 @@ export const projectData = [
 			},
 		],
 	},
+	{
+		title: "DeCentral Hub",
+		type: "Front-end project",
+		description:
+			"This was a Client Project. My job was to create a landing page (based on their designs) portfolio page, and contact form to retain clients for their agency.",
+		src: "/images/projects/8.png",
+		link: "https://decentralhub.co.uk",
+		color: "#000",
+		textColor: "#FFF",
+		tech: [
+			{
+				title: "Next JS",
+				link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+			},
+			{
+				title: "Tailwind CSS",
+				link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+			},
+		],
+	},
 ];
