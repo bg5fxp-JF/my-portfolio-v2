@@ -216,6 +216,26 @@ export const projectData = [
 		],
 	},
 	{
+		title: "DeCentral Hub",
+		type: "Front-end project",
+		description:
+			"This was a Client Project. My job was to create a landing page (based on their designs) portfolio page, and contact form to retain clients for their agency.",
+		src: "/images/projects/8.png",
+		link: "https://decentralhub.co.uk",
+		color: "#000",
+		textColor: "#FFF",
+		tech: [
+			{
+				title: "Next JS",
+				link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+			},
+			{
+				title: "Tailwind CSS",
+				link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+			},
+		],
+	},
+	{
 		title: "Floodfix",
 		type: "Front-end project",
 		description:
@@ -279,13 +299,14 @@ export const projectData = [
 			},
 		],
 	},
+
 	{
-		title: "DeCentral Hub",
+		title: "OPAL Web Agency",
 		type: "Front-end project",
 		description:
-			"This was a Client Project. My job was to create a landing page (based on their designs) portfolio page, and contact form to retain clients for their agency.",
-		src: "/images/projects/8.png",
-		link: "https://decentralhub.co.uk",
+			"This is my own agency I decided to start up to start providing web solutions at a larger scale.",
+		src: "/images/projects/9.png",
+		link: "https://opal-web-agency.vercel.app",
 		color: "#000",
 		textColor: "#FFF",
 		tech: [
