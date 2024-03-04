@@ -306,7 +306,7 @@ export const projectData = [
 		description:
 			"This is my own agency I decided to start up to start providing web solutions at a larger scale.",
 		src: "/images/projects/9.png",
-		link: "https://opal-web-agency.vercel.app",
+		link: "https://opalwebagency.com",
 		color: "#000",
 		textColor: "#FFF",
 		tech: [
