@@ -13,7 +13,7 @@ export default function BlogCard({ blog }) {
 					priority
 					width={1000}
 					height={1000}
-					className="object-cover rounded-md  group-hover:scale-125 transition-all"
+					className="object-cover rounded-md aspect-square group-hover:scale-125 transition-all"
 				/>
 			</div>
 
