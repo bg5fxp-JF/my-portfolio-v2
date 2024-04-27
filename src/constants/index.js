@@ -100,10 +100,12 @@ export const workExperience = [
 ];
 
 export const skills = [
-	{ skill: "HTML", level: "85" },
+	{ skill: "HTML", level: "90" },
 	{ skill: "CSS", level: "80" },
-	{ skill: "Javascript", level: "83" },
-	{ skill: "Typescript", level: "60" },
+	{ skill: "Webflow", level: "85" },
+	{ skill: "CMS", level: "80" },
+	{ skill: "Javascript", level: "85" },
+	{ skill: "Typescript", level: "80" },
 	{ skill: "React JS", level: "90" },
 	{ skill: "Next JS", level: "90" },
 	{ skill: "Bootstrap CSS", level: "85" },
@@ -111,7 +113,7 @@ export const skills = [
 	{ skill: "SQL", level: "70" },
 	{ skill: "Solidity", level: "75" },
 	{ skill: "Hardhat", level: "75" },
-	{ skill: "Foundry", level: "70" },
+	{ skill: "Foundry", level: "75" },
 	{ skill: "Java", level: "85" },
 	{ skill: "Python", level: "80" },
 	{ skill: "Git & Github", level: "100" },
