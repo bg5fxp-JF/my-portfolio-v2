@@ -80,6 +80,12 @@ export const education = [
 
 export const workExperience = [
 	{
+		role: "Full Stack Developer (Intern)",
+		company: "Nethermind",
+		date: "(2024 - Present)",
+		desc: "During my time here I have contributed to the development, maintenance and code infrastructure of the voyager - a Starknet (Ethereum L2) block explorer. I also was involved in writing tests on the Foundry framework for Netherminds Forta Staking Vault covering over 90% of cases.",
+	},
+	{
 		role: "Front-end Developer",
 		company: "Freenlance",
 		date: "(2022 - Present)",
@@ -121,15 +127,34 @@ export const skills = [
 
 export const projectData = [
 	{
+		title: "IgniteFi",
+		type: "Front-end project",
+		description:
+			"This is a Contracted Project. I'm working with IgniteFi and providing Front-end solutions for their landing page and also their DEX application in the making.",
+		src: "/images/projects/10.png",
+		link: "https://www.ignitefi.xyz/",
+		tech: [
+			{
+				title: "Next JS",
+				link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+			},
+			{
+				title: "Typescript",
+				link: "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg",
+			},
+			{
+				title: "Tailwind CSS",
+				link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+			},
+		],
+	},
+	{
 		title: "Archie Sharpe",
 		type: "Front-end project",
 		description:
 			"This was a Client Project. My job was to revamp Archie's website in order to propose a pitch for him.",
 		src: "/images/projects/1.png",
-		vid: "/videos/Archie.mp4",
 		link: "https://sharpshooter-tau.vercel.app",
-		color: "#f653b4",
-		textColor: "#FFF",
 		tech: [
 			{
 				title: "React JS",
@@ -148,8 +173,6 @@ export const projectData = [
 			"This was a Team Hackathon Project. It's goal was to create a platform that decentralises and secures the selling/re-selling of shoes.",
 		src: "/images/projects/3.png",
 		link: "https://crepcrypt.vercel.app",
-		color: "#72b01d",
-		textColor: "#FFF",
 		tech: [
 			{
 				title: "Next JS",
@@ -172,8 +195,6 @@ export const projectData = [
 			"This was a personal project. It was created for users to utilise the creatity of AI to generate NFTs and then stake them for rewards.",
 		src: "/images/projects/4.png",
 		link: "https://ge-nft.vercel.app",
-		color: "#FF6600",
-		textColor: "#FFF",
 		tech: [
 			{
 				title: "Next JS",
@@ -204,8 +225,6 @@ export const projectData = [
 			"This was a Client Project. My job was to create a landing page (based on their designs) in order for them to start their funding process.",
 		src: "/images/projects/2.png",
 		link: "https://clowt-friends.vercel.app",
-		vid: "/videos/Clowt.mp4",
-		color: "#6f8ceb",
 		tech: [
 			{
 				title: "React JS",
@@ -221,11 +240,9 @@ export const projectData = [
 		title: "DeCentral Hub",
 		type: "Front-end project",
 		description:
-			"This was a Client Project. My job was to create a landing page (based on their designs) portfolio page, and contact form to retain clients for their agency.",
+			"My job was to create a landing page (based on their designs) and contact form to retain clients for their agency.",
 		src: "/images/projects/8.png",
 		link: "https://decentralhub.co.uk",
-		color: "#000",
-		textColor: "#FFF",
 		tech: [
 			{
 				title: "Next JS",
@@ -244,8 +261,6 @@ export const projectData = [
 			"This was a Client Project. My job was to create a landing page and UI (based on their designs) for a MVP of theirs.",
 		src: "/images/projects/5.png",
 		link: "https://flood-fix.vercel.app",
-		color: "#6558BA",
-		textColor: "#FFF",
 		tech: [
 			{
 				title: "Next JS",
@@ -264,8 +279,6 @@ export const projectData = [
 			"This was a Client Project. My job was to create a landing page (based on their designs) and contact form to retain clients for their agency.",
 		src: "/images/projects/6.png",
 		link: "https://magnatecore.com",
-		color: "#000",
-		textColor: "#FFF",
 		tech: [
 			{
 				title: "Next JS",
@@ -284,8 +297,6 @@ export const projectData = [
 			"This was my old portfolio site. Although I liked it, I decided it was time for a change and a site capable of showcasing my newest acheivements.",
 		src: "/images/projects/7.png",
 		link: "https://jf-portfolio-v1.vercel.app",
-		color: "#000",
-		textColor: "#FFF",
 		tech: [
 			{
 				title: "Next JS",
@@ -309,8 +320,6 @@ export const projectData = [
 			"This is my own agency I decided to start up to start providing web solutions at a larger scale.",
 		src: "/images/projects/9.png",
 		link: "https://opalwebagency.com",
-		color: "#000",
-		textColor: "#FFF",
 		tech: [
 			{
 				title: "Next JS",
