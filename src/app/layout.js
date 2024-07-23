@@ -1,10 +1,4 @@
-import Hero from "@/components/Hero";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import MobileNav from "@/components/MobileNav";
-import TopHero from "@/components/TopHero";
-import Preloader from "@/components/Preloader";
-import ScrollBack from "@/components/ScrollBack";
 
 export const metadata = {
 	title: "JF | Portfolio",
