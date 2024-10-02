@@ -219,20 +219,32 @@ export const projectData = [
 		],
 	},
 	{
-		title: "Clowt Friends",
-		type: "Front-end project",
+		title: "Cairocademy",
+		type: "Full-stack project",
 		description:
-			"This was a Client Project. My job was to create a landing page (based on their designs) in order for them to start their funding process.",
-		src: "/images/projects/2.png",
-		link: "https://clowt-friends.vercel.app",
+			"This was an MVP made during my time at Nethermind. My job was to design and develop a online course learning platform.",
+		src: "/images/projects/13.png",
+		link: "https://cairocademy.vercel.app/",
 		tech: [
 			{
-				title: "React JS",
-				link: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+				title: "Next JS",
+				link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
 			},
 			{
-				title: "Bootstrap CSS",
-				link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg",
+				title: "Tailwind CSS",
+				link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+			},
+			{
+				title: "Postgress SQL",
+				link: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg",
+			},
+			{
+				title: "GraphQL",
+				link: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
+			},
+			{
+				title: "Figma",
+				link: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg",
 			},
 		],
 	},
@@ -255,41 +267,38 @@ export const projectData = [
 		],
 	},
 	{
-		title: "Floodfix",
+		title: "WESH",
 		type: "Front-end project",
 		description:
-			"This was a Client Project. My job was to create a landing page and UI (based on their designs) for a MVP of theirs.",
-		src: "/images/projects/5.png",
-		link: "https://flood-fix.vercel.app",
+			"This was a client project sourced from DeCentral Hub. My job was to develop their website (based on their designs).",
+		src: "/images/projects/12.png",
+		link: "https://www.weshweshwesh.world",
 		tech: [
 			{
-				title: "Next JS",
-				link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
-			},
-			{
-				title: "Tailwind CSS",
-				link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+				title: "Webflow",
+				link: "https://www.vectorlogo.zone/logos/webflow/webflow-icon.svg",
 			},
 		],
 	},
 	{
-		title: "Magnate Core",
+		title: "betVEX | ESports Betting",
 		type: "Front-end project",
 		description:
-			"This was a Client Project. My job was to create a landing page (based on their designs) and contact form to retain clients for their agency.",
-		src: "/images/projects/6.png",
-		link: "https://magnatecore.com",
+			"This was a Client Project. My job was to design and develop a waiting list landing page. ",
+		src: "/images/projects/14.png",
+		link: "https://www.betvex.xyz/",
 		tech: [
 			{
-				title: "Next JS",
-				link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+				title: "Webflow",
+				link: "https://www.vectorlogo.zone/logos/webflow/webflow-icon.svg",
 			},
 			{
-				title: "Tailwind CSS",
-				link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+				title: "Figma",
+				link: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg",
 			},
 		],
 	},
+
 	{
 		title: "My Portfolio (Old)",
 		type: "Front-end project",
@@ -312,7 +321,40 @@ export const projectData = [
 			},
 		],
 	},
-
+	{
+		title: "Voyager",
+		type: "Front-end project",
+		description:
+			"I worked on maintaing and improving the Voyager Dashboard during my time at Nethermind. My job included fixing bugs, implementing and testing new features optimising code and building a new design system.",
+		src: "/images/projects/15.png",
+		link: "https://voyager.online/",
+		tech: [
+			{
+				title: "React JS",
+				link: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+			},
+			{
+				title: "Typescript",
+				link: "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg",
+			},
+			{
+				title: "Jest",
+				link: "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg",
+			},
+			{
+				title: "Styled Components",
+				link: "https://cdn.worldvectorlogo.com/logos/styled-components-1.svg",
+			},
+			{
+				title: "Radix UI",
+				link: "https://cdn.worldvectorlogo.com/logos/radix-ui.svg",
+			},
+			{
+				title: "Storybook",
+				link: "https://cdn.worldvectorlogo.com/logos/storybook-1.svg",
+			},
+		],
+	},
 	{
 		title: "OPAL Web Agency",
 		type: "Front-end project",
@@ -320,6 +362,24 @@ export const projectData = [
 			"This is my own agency I decided to start up to start providing web solutions at a larger scale.",
 		src: "/images/projects/9.png",
 		link: "https://opalwebagency.com",
+		tech: [
+			{
+				title: "Next JS",
+				link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+			},
+			{
+				title: "Tailwind CSS",
+				link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+			},
+		],
+	},
+	{
+		title: "ZocialFi",
+		type: "Front-end project",
+		description:
+			"This was a Client Project. My job was to create a waiting list landing page (based on their design). ",
+		src: "/images/projects/16.png",
+		link: "https://zocial-fi-landing-page.vercel.app/",
 		tech: [
 			{
 				title: "Next JS",
