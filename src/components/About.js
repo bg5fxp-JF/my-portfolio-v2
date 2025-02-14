@@ -43,7 +43,7 @@ export default function About() {
 				<div className="flex flex-wrap justify-center gap-7">
 					{clients.map(({ company, client, img }, index) => (
 						<div
-							key={index}
+							key={index + client + img}
 							className="flex flex-col w-[200px] gap-2 items-center bg-primary p-5 rounded-md shadow-lg"
 						>
 							<Image

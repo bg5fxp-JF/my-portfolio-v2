@@ -61,6 +61,16 @@ export const clients = [
 		client: "Denis Kursevicius",
 		img: "/images/mc.png",
 	},
+	{
+		company: "betVEX",
+		client: "Ethan",
+		img: "/images/vex.jpg",
+	},
+	{
+		company: "ZocialFi",
+		client: "Mojee",
+		img: "/images/zfi.jpeg",
+	},
 ];
 
 export const education = [
@@ -80,16 +90,28 @@ export const education = [
 
 export const workExperience = [
 	{
-		role: "Full Stack Developer (Intern)",
-		company: "Nethermind",
+		role: "Software Engineering Consultant",
+		company: "FDM Group",
 		date: "(2024 - Present)",
-		desc: "During my time here I have contributed to the development, maintenance and code infrastructure of the voyager - a Starknet (Ethereum L2) block explorer. I also was involved in writing tests on the Foundry framework for Netherminds Forta Staking Vault covering over 90% of cases.",
+		desc: "At FDM Group, I have completed an intensive consultant training program that has sharpened my expertise in Java, Agile methodologies, and advanced software engineering practices. I engineer RESTful APIs with Spring Boot and leverage TDD with JUnit and Mockito to deliver robust, modular services.",
 	},
 	{
 		role: "Front-end Developer",
 		company: "Freenlance",
 		date: "(2022 - Present)",
 		desc: "As a freelancer I have worked on several projects often collaborating with Blockchain Dvelopers. I have prioritised transparent communication with both clients and the Back-end team. Maintaining clarity with the Back-end team involved strong communication. This helped ensure git repositories and code were well structured, in order to facilitate smoother integrations.",
+	},
+	{
+		role: "AI Tester & Evaluator (Code Specialist Contractor)",
+		company: "Outlier",
+		date: "(2024 - Present)",
+		desc: "I evaluate and rank AI-generated code and responses for accuracy, efficiency, and relevance, ensuring high-quality outputs. I provide detailed human feedback to enhance AI models by focusing on factuality, logical consistency, and grammatical precision.",
+	},
+	{
+		role: "Full Stack Developer (Intern)",
+		company: "Nethermind",
+		date: "(2024)",
+		desc: "During my time here I have contributed to the development, maintenance and code infrastructure of the voyager - a Starknet (Ethereum L2) block explorer. I also was involved in writing tests on the Foundry framework for Netherminds Forta Staking Vault covering over 90% of cases.",
 	},
 	{
 		role: "Junior Software Developer",
@@ -132,7 +154,7 @@ export const projectData = [
 		description:
 			"This is a Contracted Project. I'm working with IgniteFi and providing Front-end solutions for their landing page and also their DEX application in the making.",
 		src: "/images/projects/10.png",
-		link: "https://www.ignitefi.xyz/",
+		link: "https://ignitefi.vercel.app/",
 		tech: [
 			{
 				title: "Next JS",
